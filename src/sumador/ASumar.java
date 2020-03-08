@@ -19,9 +19,10 @@ public class ASumar {
 
 	            i = i / 10;
 	            sum=sum+resultado;
-	            
+	                
 	           
 	        }
+		
 		 System.out.println("La suma es: " +sum);
 		
 		if(i<0){
