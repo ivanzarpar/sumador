@@ -11,16 +11,25 @@ public class ASumar {
 
 	public static void laSuma(int i) {
 		 int resultado = 0;
+		 int sum=0;
 		while(i > 0) {
 
 	           
-	            	resultado=resultado+(i % 10);
+	            	resultado=i % 10;
 
 	            i = i / 10;
-
+	            sum=sum+resultado;
+	            
+	           
+	        }
+		 System.out.println("La suma es: " +sum);
+		
+		if(i<0){
+	        	System.out.println(" ");
 	        }
 
-	        System.out.println("La suma es: " +resultado);
+	        
+	       	
 		
 	}
 	
