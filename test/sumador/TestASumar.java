@@ -7,11 +7,11 @@ import org.junit.jupiter.api.Test;
 class TestASumar {
 
 	@Test
-	 public void testUnDigito() {
+	 public void testNegativo() {
 		
-	        ASumar sumi = new ASumar("8");
+	        ASumar sumi = new ASumar("-8");
 	        String resultado = sumi.mostrar();
-	        assertEquals("8 = 8",resultado );
+	        assertEquals(" ",resultado );
 	}
 
 }
