@@ -38,11 +38,13 @@ public class ASumar {
 		
 	}
 	
-	public static String mostrar(String otro) {
+	public static String mostrar() {
 		
-		s=otro;
-		System.out.println(otro);
-		return otro;
+		String numero = s;
+        if (numero.length() == 1) {
+            return (numero + " = " + numero);
+        }
+        return null;
 	}
 	
 	public static void main (String [] args) {
@@ -51,8 +53,7 @@ public class ASumar {
 		System.out.println("Introduce un número para averiguar la suma de sus dígitos: ");
 		int num=sc.nextInt();
 		laSuma(num);
-		String numS=Integer.toString(num);
-		mostrar(numS);
+		
 		
 	}
 
