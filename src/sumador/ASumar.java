@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class ASumar {
 	
 	
-	String s;
+	static String s;
 	
 
 	public ASumar(String res) {
 		this.s=res;
 	}
 
-	public static void laSuma(int i) {
+	public static String laSuma(int i) {
 		 int resultado = 0;
 		 int sum=0;
 		while(i > 0) {
@@ -32,7 +32,8 @@ public class ASumar {
 	        	System.out.println(" ");
 	        }
 
-	        
+		s=Integer.toString(sum);
+	      return s; 
 	       	
 		
 	}
@@ -45,8 +46,8 @@ public class ASumar {
 		laSuma(num);
 	}
 
-	public String mostrar() {
-		// TODO Auto-generated method stub
-		return null;
+	public static void mostrar() {
+		System.out.println(s);
+		
 	}
 }
