@@ -5,7 +5,12 @@ import java.util.Scanner;
 public class ASumar {
 	
 	int i;
+	String s;
 	public ASumar(int i) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public ASumar(String string) {
 		// TODO Auto-generated constructor stub
 	}
 
@@ -40,5 +45,10 @@ public class ASumar {
 		System.out.println("Introduce un número para averiguar la suma de sus dígitos: ");
 		int num=sc.nextInt();
 		laSuma(num);
+	}
+
+	public String mostrar() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
