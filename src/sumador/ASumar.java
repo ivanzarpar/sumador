@@ -38,15 +38,13 @@ public class ASumar {
 		
 	}
 	
-	public static String mostrarSiNeg() {
-		
-		String numero = s;
-		int num=Integer.parseInt(numero);
-        if (num<1) {
-            return (" " );
-        }
-        return (numero + " = " + numero);
-	}
+	public String mostrar() {
+        String numero = s;
+        if (numero.length() == 1) {
+            return (numero + " = " + numero);
+        } 
+        return null;
+}
 	
 	public static void main (String [] args) {
 		Scanner sc = new Scanner(System.in);
