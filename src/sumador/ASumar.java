@@ -41,10 +41,11 @@ public class ASumar {
 	public static String mostrar() {
 		
 		String numero = s;
-        if (numero.length() == 1) {
-            return (numero + " = " + numero);
+		int num=Integer.parseInt(numero);
+        if (num<1) {
+            return (" " );
         }
-        return null;
+        return (numero + " = " + numero);
 	}
 	
 	public static void main (String [] args) {
