@@ -38,16 +38,23 @@ public class ASumar {
 		
 	}
 	
+	public static String mostrar(String otro) {
+		
+		s=otro;
+		System.out.println(otro);
+		return otro;
+	}
+	
 	public static void main (String [] args) {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Introduce un número para averiguar la suma de sus dígitos: ");
 		int num=sc.nextInt();
 		laSuma(num);
-	}
-
-	public static void mostrar() {
-		System.out.println(s);
+		String numS=Integer.toString(num);
+		mostrar(numS);
 		
 	}
+
+	
 }
