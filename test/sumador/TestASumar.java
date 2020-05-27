@@ -10,7 +10,7 @@ class TestASumar {
 	 public void testNegativo() {
 		
 	        ASumar sumi = new ASumar("-8");
-	        String resultado = sumi.mostrar();
+	        String resultado = sumi.mostrarSiNeg();
 	        assertEquals(" ",resultado );
 	}
 
