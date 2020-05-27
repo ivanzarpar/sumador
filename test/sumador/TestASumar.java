@@ -9,8 +9,9 @@ class TestASumar {
 	@Test
 	 public void testUnDigito() {
         ASumar sumi = new ASumar("8");
-        String resultado = sumi.mostrar();
-        assertEquals("8 = 8",resultado );
+        String o="8";
+        String resultado = sumi.mostrar(o);
+        assertEquals("8",resultado );
     }
 
 }
