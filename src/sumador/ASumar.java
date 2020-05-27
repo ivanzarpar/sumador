@@ -4,14 +4,12 @@ import java.util.Scanner;
 
 public class ASumar {
 	
-	int i;
+	
 	String s;
-	public ASumar(int i) {
-		// TODO Auto-generated constructor stub
-	}
+	
 
-	public ASumar(String string) {
-		// TODO Auto-generated constructor stub
+	public ASumar(String res) {
+		this.s=res;
 	}
 
 	public static void laSuma(int i) {
