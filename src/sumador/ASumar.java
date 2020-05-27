@@ -38,7 +38,7 @@ public class ASumar {
 		
 	}
 	
-	public static String mostrar() {
+	public static String mostrarSiNeg() {
 		
 		String numero = s;
 		int num=Integer.parseInt(numero);
